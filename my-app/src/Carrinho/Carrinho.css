@@ -1,0 +1,17 @@
+.carrinho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrinho p{
+    font-size: 1.25rem;
+}
+
+.carrinho-align-right{
+    text-align: end;
+}
+
+.purple-text{
+   color: purple;
+   font-weight: bold;
+}

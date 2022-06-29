@@ -1,0 +1,20 @@
+.botao{
+    margin-top: 20px;
+    background: rgb(199, 194, 194);
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 0.5em 6em;
+    cursor: default;
+    border-radius: 7px;
+}
+
+.btn-active{
+    background: purple;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-active:hover{
+    background: rgba(128, 0, 128, 0.548);
+}

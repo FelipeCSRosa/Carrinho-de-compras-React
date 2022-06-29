@@ -1,0 +1,72 @@
+.plano{
+    margin: 10px 10px 10px 0;
+    width: 150px;
+    border: 2px solid rgb(231, 228, 222);
+    padding: 0.8em;
+    border-radius: 10px;
+    cursor: pointer;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.circle{
+    border: 2px solid rgb(231, 228, 222);
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+}
+
+.nome{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.preco{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detalhes{
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.plano-active{
+    border: 2px solid purple;
+}
+
+.plano-active .circle{
+    border: 2px solid purple;
+    background: purple;
+}
+
+.disabled{
+    cursor: default;
+}
+
+.plano:hover{
+    border: 2px solid rgba(128, 0, 128, 0.548);
+}
+
+.plano-active:hover{
+    border: 2px solid purple;
+}
+
+.plano:hover .circle{
+    border: 2px solid purple;
+}
+
+.disabled:hover{
+    border: 2px solid rgb(231, 228, 222);
+}
+
+.disabled:hover .circle{
+    border: 2px solid rgb(231, 228, 222);
+}
