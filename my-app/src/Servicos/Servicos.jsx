@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import React, { Component } from 'react';
 
 import Categoria from '../Categoria/Categoria'
@@ -22,7 +21,9 @@ class Servicos extends Component {
 
 
     componentDidMount() {
-        fetch(this.urlInternet).then(response => {return response.json();}).then(data => {
+        fetch(this.urlInternet)
+        .then(response => {return response.json();})
+        .then(data => {
             this.setState({planosInternet: data});
         })
 

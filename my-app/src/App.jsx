@@ -4,6 +4,7 @@ import Servicos from './Servicos/Servicos'
 import Carrinho from './Carrinho/Carrinho'
 
 import './App.css'
+import ServicosFunc from './Servicos/ServicosFunc';
 
 function App() {
   const [valores, setValores] = useState([0, 0, 0]);
@@ -20,7 +21,7 @@ function App() {
   return (
     <div className='container'>
       <div className='components-container'>
-        <Servicos onClick={handleValores} valores={valores}/>
+        <ServicosFunc onClick={handleValores} valores={valores}/>
         <hr />
         <Carrinho total={total} />
       </div>
